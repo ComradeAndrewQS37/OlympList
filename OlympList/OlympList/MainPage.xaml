@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OlympList.MainPage"
+             BackgroundColor="White"
+             Title="OlympList"
+             NavigationPage.HasNavigationBar="False">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Меню" BackgroundColor="#00E4FF">
+            <ContentPage.Content>
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="50" HeightRequest="50"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center" Source="home.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="ButtonHome" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Главная" FontFamily ="RoRe" TextColor="#DBFAFF" FontSize="30" BackgroundColor="#00E4FF" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ButtonHome"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="50" HeightRequest="50"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center" Source="oly.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="ButtonOlymp" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Олимпиады" FontFamily ="RoRe" TextColor="#DBFAFF" FontSize="30" BackgroundColor="#00E4FF" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ButtonOlymp"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="50" HeightRequest="50"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center" Source="cal.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="ButtonCal" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Календарь" FontFamily ="RoRe" TextColor="#DBFAFF" FontSize="30" BackgroundColor="#00E4FF" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ButtonCal"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="50" HeightRequest="50"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center" Source="web.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="ButtonPrep" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Подготовка" FontFamily ="RoRe" TextColor="#DBFAFF" FontSize="30" BackgroundColor="#00E4FF" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ButtonPrep"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="4" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="50" HeightRequest="50"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center" Source="star.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="ButtonRecom" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Рекомендации" FontFamily ="RoRe" TextColor="#DBFAFF" FontSize="30" BackgroundColor="#00E4FF" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ButtonRecom"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="5" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="50" HeightRequest="50"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center" Source="univer.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="ButtonUnis" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Университеты" FontFamily ="RoRe" TextColor="#DBFAFF" FontSize="30" BackgroundColor="#00E4FF" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ButtonUnis"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+
+                </Grid>
+            </ContentPage.Content>
+        </ContentPage>
+
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage BackgroundColor="#C1F3E2">
+            <ContentPage.Content>
+                <Label Text="Добро пожаловать!" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+
+
+</MasterDetailPage>
