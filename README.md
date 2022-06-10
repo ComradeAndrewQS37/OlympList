@@ -5,8 +5,12 @@
 * Рекомендации олимпиад для участия на основе персональной информации(класс обучения,область интересов и предпочтения в выборе вуза) и ресурсов для подготовки к ним
 * Просмотр списка университетов с подробной информацией о доступных льготах по олимпиадам и статистикой поступлений БВИ за последние года
 
-<img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot1.png" width="195" ></kbd>
-<img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot2.png" width="195"> <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot3.png" width="195"> <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot4.png" width="195"> <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot5.png" width="195">
+<p align="center">
+<img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot1.png" width="200" > <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot2.png" width="200"> <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot3.png" width="200"> 
+</p>
+<p align="center">
+ <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot4.png" width="200"> <img src="https://github.com/ComradeAndrewQS37/OlympList/blob/master/screenshots/Screenshot5.png" width="200">
+ </p>
 
 
 
